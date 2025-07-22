@@ -5,6 +5,9 @@
     --color-primary-hover: #5e8066;
 
     --color-primary-text: #57755e;
+
+    --color-secondary: #d7f4de;
+    --color-page-background: #bcedc9;
 }
 
 :root {
@@ -12,7 +15,7 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: var(--color-page-background);
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -22,6 +25,10 @@
     margin: 0;
 }
 
-body {
+html,
+body,
+#root {
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
