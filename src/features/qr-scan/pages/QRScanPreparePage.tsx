@@ -14,7 +14,7 @@ export function QRScanPreparePage() {
                     <p className="text-center text-sm w-[80%]">
                         Apuntá la cámara al QR del visitante hasta que este completamente dentro del marco.
                     </p>
-                    <Button label="Escánear" icon={chevron_right} />
+                    <Button label="Escánear" icon={chevron_right} navigateTo="/scan/success" />
                 </div>
             </Panel>
         </Page>

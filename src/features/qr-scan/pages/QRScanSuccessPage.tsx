@@ -16,7 +16,7 @@ export function QRScanSuccessPage() {
                     <p className="text-center text-sm w-[80%]">
                         El visitante ha sido identificado correctamente.
                     </p>
-                    <Button label="Aceptar" />
+                    <Button label="Aceptar" navigateTo="/scan" />
                 </div>
             </Panel>
         </Page>

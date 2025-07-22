@@ -18,7 +18,7 @@ export function LoginForm({ className }: Props) {
                 <InputText leftIcon={user_icon} placeholder="Usuario"></InputText>
                 <InputText leftIcon={lock_icon} rightIcon={eye_icon} placeholder="Contraseña" type="password"></InputText>
 
-                <Button className="mt-2" label="Ingresar" />
+                <Button className="mt-2" label="Ingresar" navigateTo="/scan" />
             </div>
 
         </Panel>
