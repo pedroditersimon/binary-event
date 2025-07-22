@@ -1,8 +1,13 @@
-import { type PropsWithChildren } from "react";
+import { cn } from "src/common/utils/cn";
 
-export function Page({ children }: PropsWithChildren) {
+interface Props {
+    className?: string;
+    children: React.ReactNode;
+}
+
+export function Page({ className, children }: Props) {
     return (
-        <div>
+        <div className={cn(className)}>
             {children}
         </div>
     );
