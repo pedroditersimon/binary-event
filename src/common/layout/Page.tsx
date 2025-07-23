@@ -7,7 +7,7 @@ interface Props {
 
 export function Page({ className, children }: Props) {
     return (
-        <div className={cn(className)}>
+        <div className={cn("fade-in", className)}>
             {children}
         </div>
     );
