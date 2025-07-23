@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import { Page } from "src/common/layout/Page";
+import { Page } from "src/common/layouts/Page";
 import { QrReader } from "src/features/qr-scan/components/QRReader";
 
 export function QRScanReaderPage() {

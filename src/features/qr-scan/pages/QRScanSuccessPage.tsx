@@ -1,6 +1,6 @@
 import { Button } from "src/common/components/Button";
-import { Panel } from "src/common/layout/Panel";
-import { Page } from "src/common/layout/Page";
+import { Panel } from "src/common/layouts/Panel";
+import { Page } from "src/common/layouts/Page";
 
 // import qr_img from "./assets/qr-hand.png";
 // import chevron_right from "./assets/chevron-right.png";
