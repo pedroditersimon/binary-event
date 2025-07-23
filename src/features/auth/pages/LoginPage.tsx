@@ -8,7 +8,7 @@ export function LoginPage() {
         <Page className="flex flex-col items-center size-full">
 
             <img src={visitor_man_img} className="mt-5 size-52 object-contain" alt="" />
-            <LoginForm className="w-[20rem] md:w-fit"></LoginForm>
+            <LoginForm></LoginForm>
 
         </Page>
     );

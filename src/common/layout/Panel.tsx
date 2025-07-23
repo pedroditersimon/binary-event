@@ -9,7 +9,7 @@ interface Props {
 
 export function Panel({ className, title, children }: Props) {
     return (
-        <div className={cn("bg-white rounded-3xl p-4 w-64", className)}        >
+        <div className={cn("bg-white rounded-3xl p-4 w-[20rem]", className)}        >
             <h1 className="text-primary-text text-xl font-semibold text-center mb-3">{title}</h1>
             <div className="text-primary-text ">
                 {children}

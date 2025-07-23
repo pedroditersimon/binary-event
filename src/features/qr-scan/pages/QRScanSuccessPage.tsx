@@ -9,7 +9,7 @@ import check_icon from "src/assets/check.png";
 export function QRScanSuccessPage() {
     return (
         <Page className="flex items-center justify-center size-full">
-            <Panel className="w-[20rem] md:w-fit" title="¡Escaneo exitoso!" >
+            <Panel title="¡Escaneo exitoso!" >
                 <div className="flex flex-col gap-4 items-center">
 
                     <img src={check_icon} className="size-16 object-contain opacity-80" />
